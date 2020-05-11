@@ -56,7 +56,7 @@ void menu(){
             cout << "\n**************************************" << endl;
             cout << "\t Ingresar nodo"<<endl;
             cout << "**************************************" << endl;
-            cout << "¿Cuantos Nodos quieres ingresar?"<<endl;
+            cout << "Â¿Cuantos Nodos quieres ingresar?"<<endl;
             cin>> n;
             for (int i = 0; i < n; i++)
             {
@@ -139,10 +139,10 @@ Nodo *crearNodo(int n){
 }
 
 
-//Funcion para inzertar el elementos del arbol 
+//Funcion para insertar el elementos del arbol 
 void insertarNodo(Nodo *&arbol, int n){
     //Si el arbol esta vacion, 
-    // crear un nuevo NOdo
+    // crear un nuevo Nodo
     if(arbol  == NULL){
         Nodo *nuevo_nodo = crearNodo(n);
         arbol = nuevo_nodo;
